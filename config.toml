@@ -13,7 +13,7 @@ editor = "nano"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
-title = "Vasilij Melnychuk personal homepage"
+title = "Vasyl Melnychuk personal homepage"
 
 [blackfriday]
   extensions = ["hardLineBreak"]
@@ -23,8 +23,8 @@ title = "Vasilij Melnychuk personal homepage"
   posts = "posts/:slug/"
 
 [params]
-  author = "Vasilij Melnychuk"
-  email = "vasilij@melnychuk.me"
+  author = "Vasyl Melnychuk"
+  email = "vasyl@melnychuk.me"
   description = "Personal homepage"
   bio = "Software Developer"
   avatar = "img/avatar.png"
