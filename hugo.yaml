@@ -1,0 +1,150 @@
+baseURL: "https://melnychuk.me/"
+title: Vasyl Melnychuk
+languageCode: en
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Vasyl Melnychuk
+  description: "Senior Software Developer specializing in Ruby on Rails, microservices architecture, and cloud infrastructure"
+  keywords: [Ruby, Rails, Software Developer, Backend, AWS, Kubernetes, PostgreSQL]
+  author: Vasyl Melnychuk
+
+  # Profile Mode for homepage
+  profileMode:
+    enabled: true
+    title: "Vasyl Melnychuk"
+    subtitle: "Senior Software Developer • Ruby on Rails Expert • Cloud Infrastructure"
+    imageUrl: "img/avatar.png"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "Vasyl Melnychuk"
+    buttons:
+      - name: About
+        url: /about
+      #- name: Projects
+      #  url: /projects
+      #- name: Blog
+      #  url: /posts
+      - name: Download CV
+        url: /misc/VasylMelnychukCV.pdf
+
+  socialIcons:
+    - name: email
+      url: "mailto:vasyl@melnychuk.me"
+    - name: github
+      url: "https://github.com/sqrel"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/sqrel/"
+    - name: telegram
+      url: "https://t.me/sqrel/"
+    - name: instagram
+      url: "https://instagram.com/sqrel"
+
+  # Homepage behavior
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "Senior software developer with over a decade of experience in Ruby on Rails, microservices architecture, and cloud infrastructure"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  label:
+    text: "Vasyl Melnychuk"
+    icon: /img/favicon.ico
+    iconHeight: 35
+
+  # Analytics (add later if needed)
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+
+  assets:
+    disableHLJS: false
+    # disableFingerprinting: true
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon.ico"
+    favicon32x32: "img/favicon.ico"
+    apple_touch_icon: "img/favicon.ico"
+
+  # Cover image settings
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # Search functionality
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    #- identifier: projects
+    #  name: Projects
+    #  url: /projects/
+    #  weight: 30
+    #- identifier: blog
+    #  name: Blog
+    #  url: /posts/
+    #  weight: 40
+    #- identifier: archive
+    #  name: Archive
+    #  url: /archive/
+    #  weight: 50
+    #- identifier: search
+    #  name: Search
+    #  url: /search/
+    #  weight: 60
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+  goldmark:
+    renderer:
+      hardWraps: true

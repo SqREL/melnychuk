@@ -1,0 +1,106 @@
+/* Custom styles for better content pages */
+
+/* Improve content page layout and spacing */
+.post-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Better heading spacing */
+.post-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Better paragraph spacing */
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Improve list styling */
+.post-content ul {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+.post-content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  list-style-type: decimal;
+}
+
+.post-content li {
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+/* Nested lists */
+.post-content li ul,
+.post-content li ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Strong/bold text */
+.post-content strong {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Code blocks */
+.post-content code {
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  background: var(--code-bg);
+}
+
+/* Better link styling in content */
+.post-content a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+  text-underline-offset: 3px;
+}
+
+.post-content a:hover {
+  text-decoration-color: var(--primary);
+}
+
+/* Projects and About pages specific improvements */
+.post-content h3 + p {
+  margin-top: 0.8rem;
+}
+
+/* Tech stack emphasis */
+.post-content p strong:first-child {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .post-content {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .post-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.3rem;
+  }
+}
