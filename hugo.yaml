@@ -27,7 +27,7 @@ params:
     enabled: true
     title: "Vasyl Melnychuk"
     subtitle: "Senior Software Developer • Ruby on Rails Expert • Cloud Infrastructure"
-    imageUrl: "img/avatar.png"
+    imageUrl: "img/avatar.jpg"
     imageWidth: 180
     imageHeight: 180
     imageTitle: "Vasyl Melnychuk"
@@ -76,7 +76,7 @@ params:
 
   label:
     text: "Vasyl Melnychuk"
-    icon: /img/favicon.ico
+    icon: /img/avatar.png
     iconHeight: 35
 
   # Analytics (add later if needed)
