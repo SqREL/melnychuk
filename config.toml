@@ -7,7 +7,7 @@ buildFuture = false
 buildExpired = false
 # enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 relativeURLs = true
-disableRSS = true
+disableKinds = ["RSS"]
 enableRobotsTXT = true
 editor = "nano"
 languageCode = "en"
@@ -15,8 +15,10 @@ language = "en"
 theme = "vncnt-hugo"
 title = "Vasyl Melnychuk personal homepage"
 
-[blackfriday]
-  extensions = ["hardLineBreak"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
 
 [permalinks]
   fixed = ":title/"
